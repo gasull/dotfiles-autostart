@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=0.9.4
+Type=Application
+Name=update and upgrade
+Comment=aptitude update; aptitude full-upgrade
+Exec=xfce4-terminal -e "sh -c 'sudo torify aptitude update; sudo torify aptitude full-upgrade; ~/.config/vim/update-vim.sh all; ~/bin/update-github-apps.sh'"
+OnlyShowIn=XFCE;
+StartupNotify=false
+Terminal=false
+Hidden=false
+
